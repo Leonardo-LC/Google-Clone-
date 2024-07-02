@@ -85,6 +85,11 @@ body{
     border: 0px;
 }
 
+.bar textarea:focus {
+    outline: none; /* Remove a borda de foco */
+    border: none; /* Remove a borda */
+}
+
 .search{
     left: 15px;
 }
