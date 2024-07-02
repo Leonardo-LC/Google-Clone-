@@ -1,6 +1,45 @@
 *{
     box-sizing: border-box;
+    margin-top: 0px;
 }
 body{
     margin: 0px;
+}
+
+.topbar{
+   
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.topbar a, li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 13px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+.topbar img{
+    height: 25px;
+    width: 25px;
+    margin-top: 6px;
+    margin-right: 10px ; /*push the image to the left*/ 
+}
+
+.logb a{
+    color: white;
+    border: 1px solid rgb(11,87,208,255);
+    background-color:rgba(11,87,208,255);
+    border-radius: 20px ;
+    padding: 11px;
+    margin-top: -1px;
 }
