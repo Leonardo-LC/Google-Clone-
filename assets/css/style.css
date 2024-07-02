@@ -72,20 +72,62 @@ body{
     width: 584px;
     height: 48px;
     margin-top: 18px;
-    
+    position: relative;
 }
 .bar textarea{
-    margin-left: auto;
+    margin-left: 50px;
     margin-right: auto;
     resize: none;
     display: block;
     margin-top: 5px;
     width: 403px;
     height: 38px;
-    border: 0px; 
+    border: 0px;
 }
-.searchicon img{
-    width: auto;
-    height: 50px;
+
+.search{
+    left: 15px;
+}
+
+.searchicon {
+    position: absolute; 
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    left: 15px;
+}
+
+.searchicon img {
+    width: 20px; 
+    height: 20px; 
+    margin-top: 5px;
+    
+}
+
+.voiceicon {
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-50%); 
+    right: 50px;
+}
+
+.voiceicon img {
+    width: 25px; 
+    height: 25px; 
+    margin-top: 5px;
+   
+}
+
+.lensicon {
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-50%); 
+    right: 15px;
+}
+
+.lensicon img {
+    width: 25px; 
+    height: 25px; 
+    margin-top: 5px;
     
 }
