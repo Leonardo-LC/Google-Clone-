@@ -43,3 +43,49 @@ body{
     padding: 11px;
     margin-top: -1px;
 }
+
+.logo{
+    width: 100%;
+    height: 119px;
+    justify-content: flex-end;
+    margin-top: 22px;
+}
+
+.logo img{
+    width: 290px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.search{
+    display: flex;
+    width: 100%;
+}
+.bar{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(233,234,237,255);
+    border-radius: 30px;
+    width: 584px;
+    height: 48px;
+    margin-top: 18px;
+    
+}
+.bar textarea{
+    margin-left: auto;
+    margin-right: auto;
+    resize: none;
+    display: block;
+    margin-top: 5px;
+    width: 403px;
+    height: 38px;
+    border: 0px; 
+}
+.searchicon img{
+    width: auto;
+    height: 50px;
+    
+}
