@@ -164,8 +164,12 @@ body{
     height: 48px;
     background-color: rgba(242,242,242,255);
     position:absolute;
-    bottom: 1;
-   
+    display: flex;
+    margin-top: 265px;
+}
+.content{
+    padding: 15px;
+    margin-left: 17px;
 }
 
 .bottombarf{
@@ -182,10 +186,16 @@ body{
     font-size: 14px;
     margin-right: 15px;
     margin-left: -10px;
+    
 }
 
-.content{
-    padding: 15px;
-    margin-left: 17px;
+.sidec{
+    margin-left: auto;
 }
 
+.contentr a{
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 15px;
+    justify-content: flex-end;
+}
