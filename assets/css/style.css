@@ -158,44 +158,64 @@ body{
     font-size: 14px;
 }
 
+.container{
+     position:absolute;
+    bottom: 0;
+    display: flex; 
+    width: 100%;
+    display: inline-block;
+}
 
 .bottombar{
     width: 100%;
     height: 48px;
     background-color: rgba(242,242,242,255);
-    position:absolute;
+    border-bottom:1px solid rgb(211, 211, 211);
     display: flex;
-    margin-top: 265px;
+    /*margin-top: 265px;*/
 }
 .content{
     padding: 15px;
     margin-left: 17px;
+    
 }
 
 .bottombarf{
-    width: 100%;
     height: 46px;
     background-color: rgba(242,242,242,255);
-    position:absolute;
-    bottom: 0;
     display: flex;
+    width: 80%;
+   /* position:absolute;
+    bottom: 0;
+    display: flex; */
 }
 
 .contentf li{
     padding: 10px;
     font-size: 14px;
     margin-right: 15px;
-    margin-left: -10px;
-    
 }
 
 .sidec{
-    margin-left: auto;
+   
 }
 
-.contentr a{
+.bottombarR{
+    width: 50%;
+    height: 46px;
+    background-color: rgba(242,242,242,255);
+    /* position:absolute;
+    bottom: 0;
+    display: flex; */
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50%;
+    margin-top: -46px;
+}
+
+.contentR li{
     padding: 10px;
     font-size: 14px;
     margin-right: 15px;
-    justify-content: flex-end;
 }
+
